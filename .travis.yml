@@ -2,6 +2,9 @@ language: python
 python:
   - "2.7"
 
+env:
+  - ANDROID_HOME=/opt/android-sdk-linux
+
 install: "pip install -U -r requirements.txt"
 
-script: pytest -s
+script: py.test -s
