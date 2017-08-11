@@ -15,4 +15,4 @@ def test_sdk_path(prop):
 
 
 def test_keystore_path(prop):
-  assert prop.keytool.name == 'android.debug.fixture'
+  assert prop.keytool.name == 'android.debug'

@@ -17,7 +17,7 @@ setup(
     'Environment :: Console',
     'Topic :: Software Development :: Build Tools'
   ],
-  data_files=[('config', ['config/default.cfg'])],
+  data_files=[('androidlib/config', ['config/default.cfg'])],
   packages=find_packages(),
   install_requires=[
     'requests==2.18.3'

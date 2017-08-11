@@ -1,5 +1,6 @@
 import ConfigParser
 import os
+import sys
 from collections import namedtuple
 
 
@@ -11,7 +12,7 @@ sdk = None
 keytool = None
 
 
-def bootstrap(path='config/default.cfg'):
+def bootstrap(path='%s/androidlib/config/default.cfg' % sys.prefix):
   global config
   config = ConfigParser.ConfigParser(allow_no_value=True)
   config.read(path)

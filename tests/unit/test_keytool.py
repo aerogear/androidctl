@@ -5,7 +5,7 @@ import mock
 import pytest
 
 from androidlib import props
-props.bootstrap()
+props.bootstrap('tests/fixtures/props.cfg')
 props.refresh()
 from androidlib import keytool, errors
 

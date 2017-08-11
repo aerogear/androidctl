@@ -36,5 +36,5 @@ class RuntimeError(BaseError):
 class ConnectionError(BaseError):
   def __init__(self, message):
     super(ConnectionError, self).__init__(self)
-    self.code = err.ECONNREFUSED
+    self.code = errno.ECONNREFUSED
     self.message = '%s: %s' % (errmsg(self.code), message)
