@@ -12,7 +12,7 @@ from androidlib import keytool, errors
 
 def test_keytool_path():
   path = keytool.keytool_path()
-  assert path == '%s/android.debug' % os.environ.get('ANDROID_HOME')
+  assert path == '%s/android.debug' % os.environ.get('ANDROID_HOME', props.sdk.path)
 
 
 def test_keytool_gen_success():
