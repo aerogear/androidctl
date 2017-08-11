@@ -6,10 +6,15 @@ import zipfile
 import shutil
 
 import requests
+import urllib3.contrib.pyopenssl
+
 
 import props
 import errors
 import utils
+
+
+urllib3.contrib.pyopenssl.inject_into_urllib3()
 
 
 sdk_path = os.environ.get('ANDROID_HOME', props.sdk.path)
