@@ -1,6 +1,6 @@
 # Androidctl
 
-[![Build Status](https://travis-ci.org/aerogear/digger-build-cli.png)](https://travis-ci.org/aerogear/androidctl)
+[![Build Status](https://travis-ci.org/aerogear/androidctl.png)](https://travis-ci.org/aerogear/androidctl)
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Project Info
@@ -22,10 +22,10 @@ Command line interface utility that installs android sdk and its development pac
 ### From source
 
 ```
-python setup.pt install
+python setup.py install
 ```
 
-### From git (zip archive)
+### From repository (zip archive)
 
 
 ```
