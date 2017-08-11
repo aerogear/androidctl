@@ -43,7 +43,6 @@ def sync_cmd(path, purge=False, purge_key=True):
   try:
     res = config.read(path)
   except ConfigParser.Error as err:
-    print 'lalla'
     raise errors.RuntimeError(errno.EILSEQ, str(err))
   if len(res) == 0:
     raise errors.RuntimeError(errno.EIO, 'Could not load/read config file at %s.' % path)
