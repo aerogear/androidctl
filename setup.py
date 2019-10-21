@@ -21,7 +21,7 @@ setup(
   packages=find_packages(),
   install_requires=[
     'requests==2.18.3',
-    'urllib3==1.22',
+    'urllib3==1.24.2',
     'pyOpenSSL==17.2.0',
     'cryptography==2.0.3',
     'idna==2.5',
