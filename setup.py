@@ -23,7 +23,7 @@ setup(
     'requests==2.18.3',
     'urllib3==1.22',
     'pyOpenSSL==17.2.0',
-    'cryptography==2.0.3',
+    'cryptography==3.2',
     'idna==2.5',
     'certifi==2017.7.27.1'
   ],
