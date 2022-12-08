@@ -25,7 +25,7 @@ setup(
     'pyOpenSSL==17.2.0',
     'cryptography==2.0.3',
     'idna==2.5',
-    'certifi==2017.7.27.1'
+    'certifi==2022.12.7'
   ],
   setup_requires=['pytest-runner'],
   tests_require=['pytest', 'pytest-sugar']
